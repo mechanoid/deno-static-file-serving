@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "start": "deno run --allow-read=. --allow-net=:3001 --allow-env --allow-sys=networkInterfaces --no-prompt  npm:http-server -c-1 --port 3001 ./public"
+  },
+  "nodeModulesDir": true
+}
